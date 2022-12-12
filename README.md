@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+#  My Task's
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![GitHub](https://img.shields.io/github/license/steinerstt/my-tasks?style=for-the-badge)
+![Website](https://img.shields.io/website?color=gree&label=Status&style=for-the-badge&up_message=finalizado&url=https://github.com/steinerstt/my-tasks)
+<br><br>
 
-## Available Scripts
+![my-tasks](https://github.com/steinerstt/screenshots-projects/blob/main/my-tasks/my-tasks-gif.gif?raw=true)
+> A My Tasks é uma aplicação onde os usuários podem listar suas task's (tarefas), onde serão organizadas com a seguinte regra: Urgente - Prioritária - Normal
 
-In the project directory, you can run:
+## 🔰 Ao Vivo
+Para acessar o deploy <a href="https://my-tasks-seven.vercel.app/" target="_blank" > Clique Aqui! </a>
 
-### `yarn start`
+## 📌 Features
+- [x] Adicionar task
+- [x] Listagem das Task's (ordenação das task's:  Urgente - Prioritária - Normal)
+- [x] Deletar task
+- [x] Pesquisar task(s) 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Tecnologias
+ Este projeto foi desenvolvido com as seguintes tecnologias
+- React
+- TypeScript
+- Styled-components
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Executando o projeto localmente
+### 💻 Pré-requisitos
+Para rodar o projeto é necessário que você tenha instalado na sua máquina as seguintes ferramentas:
+-  Git
+-  Node.js
+-  VSCode
 
-### `yarn test`
+### 💿 Rodando
+```bash
+# Clone este repositório através do terminal
+$ git clone git@github.com:steinerstt/my-tasks.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Acesse a pasta do projeto
+$ cd my-tasks
 
-### `yarn build`
+# Instale as dependências do projeto - com yarn OU npm
+$ yarn install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+$ npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Rode o projeto - com yarn OU npm 
+$ yarn start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+$ npm run dev
+```
 
-### `yarn eject`
+<br>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📸 Screenshots
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Página inicial com a lista de task's vazia](https://github.com/steinerstt/screenshots-projects/blob/main/my-tasks/img1.jpg?raw=true)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Página inicial com as task's listadas](https://github.com/steinerstt/screenshots-projects/blob/main/my-tasks/img2.jpg?raw=true)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Task pesquisada listada](https://github.com/steinerstt/screenshots-projects/blob/main/my-tasks/img3.jpg?raw=true)
 
-## Learn More
+<br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📄 Licença
+Este projeto está sob a licença do MIT - veja o arquivo [LICENSE](https://github.com/steinerstt/my-tasks/blob/main/LICENSE) para detalhes.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feito com ❤ por [Steiner](https://github.com/steinerstt)
