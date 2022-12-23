@@ -28,6 +28,7 @@ Para rodar o projeto é necessário que você tenha instalado na sua máquina as
 -  Git
 -  Node.js
 -  VSCode
+- Yarn (Recomendado)
 
 ### 💿 Rodando
 ```bash
@@ -45,7 +46,7 @@ $ npm install
 # Rode o projeto - com yarn OU npm 
 $ yarn start
 
-$ npm run dev
+$ npm start
 ```
 
 <br>
